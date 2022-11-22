@@ -1,0 +1,41 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Module",
+            "type": "python",
+            "request": "launch",
+            "module": "pilgrimage",
+            "args": [
+                //"--cyclic",
+                "Rome, Alabama, USA",
+                "Rome, Georgia, USA",
+                "Rome, Illinois, USA",
+                "Rome City, Indiana, USA",
+                "Rome, Indiana, USA",
+                "Rome, Iowa, USA",
+                "Rome, Ellis County, Kansas, USA",
+                "Rome, Sumner County, Kansas, USA",
+                "Rome, Kentucky, USA",
+                "Rome, Maine, USA",
+                "Rome, Mississippi, USA",
+                "Rome, Missouri, USA",
+                "Rome, New York, USA",
+                "Rome, Ohio, a village, USA",
+                "Rome, Delaware County, Ohio, USA",
+                "Rome, Morrow County, Ohio, USA",
+                "Rome, Richland County, Ohio, USA",
+                "Rome, Oregon, USA",
+                "Rome, Pennsylvania, USA",
+                "Rome, Tennessee, USA",
+                "Rome, Adams County, Wisconsin, USA",
+                "Rome (community), Adams County, Wisconsin, USA",
+                "Rome, Jefferson County, Wisconsin, USA"
+            ],
+            "justMyCode": false
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "pilgrimage"
+description = "Script to find a path going through all specified places"
+version = "0.1.0"
+authors = ["Paulo Costa"]
+packages = [
+    { include = "pilgrimage" },
+]
+
+[tool.poetry.scripts]
+pilgrimage = 'pilgrimage:app'
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cachetools = "^5.2.0"
+typer = "^0.7.0"
+googlemaps = "^4.7.0"
+frozendict = "^2.3.4"
+ortools = "^9.4.1874"
+pygeohash = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.19.0"
+pytest = "^7.2.0"
+mypy = "^0.990"
+pytest-asyncio = "^0.20.1"
+
+[tool.poetry.group.dev.dependencies]
+types-cachetools = "^5.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 119
+
+[tool.isort]
+src_paths = ["salesperson", "tests"]
+profile = "black"
+indent = 4
+combine_star = true
+combine_as_imports = true
+lines_after_imports = 2
+known_pytest = ["pytest"]
+known_first_party = ["salesperson"]
+sections = ["FUTURE", "STDLIB", "PYTEST", "FIRSTPARTY", "LOCALFOLDER"]
