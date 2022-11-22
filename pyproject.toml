@@ -16,7 +16,6 @@ python = "^3.10"
 cachetools = "^5.2.0"
 typer = "^0.7.0"
 googlemaps = "^4.7.0"
-frozendict = "^2.3.4"
 ortools = "^9.4.1874"
 pygeohash = "^1.2.0"
 
@@ -45,4 +44,4 @@ combine_as_imports = true
 lines_after_imports = 2
 known_pytest = ["pytest"]
 known_first_party = ["salesperson"]
-sections = ["FUTURE", "STDLIB", "PYTEST", "FIRSTPARTY", "LOCALFOLDER"]
+sections = ["FUTURE", "STDLIB", "PYTEST", "FIRSTPARTY", "LOCALFOLDER", "THIRDPARTY"]
